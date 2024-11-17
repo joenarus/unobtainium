@@ -10,7 +10,7 @@ export default defineConfig({
   plugins: [
     react(),
     libInjectCss(),
-    dts({ include: ['lib'] })
+    dts({ include: ['lib'], rollupTypes: true, tsconfigPath: 'tsconfig.lib.json' })
   ],
   build: {
     copyPublicDir: false,

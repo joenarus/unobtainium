@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "dev": "vite",
-    "build": "tsc --p ./tsconfig-build.json && vite build",
+    "build": "tsc --p ./tsconfig.lib.json && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "prepublishOnly": "npm run build"
